@@ -6,7 +6,7 @@ const random = require('canvas-sketch-util/random');
 const eases = require('eases');
 
 const settings = {
-  dimensions: 'a3',
+  dimensions: [1080, 1080],
   animate: true,
 };
 
