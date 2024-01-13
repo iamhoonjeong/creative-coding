@@ -106,8 +106,6 @@ class Particle {
     if (dd < this.minDist) {
       this.ax += (dx / dd) * distDelta * this.pushFactor;
       this.ay += (dy / dd) * distDelta * this.pushFactor;
-
-      console.log(dx, dd, dx / dd, distDelta);
     }
 
     this.vx += this.ax;
